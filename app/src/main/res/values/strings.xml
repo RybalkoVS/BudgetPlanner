@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Планировщик бюджета</string>
+    <string name="main_activity_label">Главная</string>
+    <string name="add_wallet_label">Новый кошелёк</string>
+    <string name="add_transaction_label">Новая транзакция</string>
+    <string name="tab_home">Кошельки</string>
+    <string name="tab_transactions_list">Транзакции</string>
+    <string name="tab_statistics">Статистика</string>
+    <string name="add_btn_txt">Добавить кошелек</string>
+    <string name="creat_wallet_btn">Создать</string>
+    <string name="wallet_name">Имя счёта</string>
+    <string name="wallet_balance">Баланс</string>
+    <string name="editWallet">Редактировать</string>
+    <string name="deleteWallet">Удалить</string>
+    <string name="transaction_sum">Сумма</string>
+    <string name="apply_transaction">Подтвердить</string>
+    <string-array name="currency_list">
+        <item>BYN</item>
+        <item>USD</item>
+        <item>EUR</item>
+        <item>RUB</item>
+    </string-array>
+    <string name="choose_transaction_type">Тип транзакции</string>
+    <string-array name="transaction_types">
+        <item>Расходы</item>
+        <item>Доходы</item>
+    </string-array>
+    <string name="expense">Расходы</string>
+    <string name="earn">Доходы</string>
+    <string name="transactionCategory">Категория</string>
+    <string name="default_category_salary">Зарплата</string>
+    <string name="default_category_home">Дом</string>
+    <string name="default_category_food">Еда</string>
+    <string name="default_category_clothes">Одежда</string>
+    <string name="default_category_scholarship">Стипендия</string>
+    <string name="choose_category_title">Существующие категории</string>
+    <string name="no_transactions_notify">Транзакции отсутствуют</string>
+    <string name="empty_fields">Поля не могут быть пустым</string>
+    <string name="negative_balance_toast">Начальный баланс не может быть отрицательным</string>
+    <string name="period">Период</string>
+    <string name="period_sign">-</string>
+</resources>

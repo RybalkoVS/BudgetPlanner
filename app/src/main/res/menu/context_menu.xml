@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/editWallet"
+        android:id="@+id/editMenuItem"
+        android:orderInCategory="1">
+    </item>
+    <item android:title="@string/deleteWallet"
+        android:id="@+id/deleteMenuItem"
+        android:orderInCategory="2">
+    </item>
+
+</menu>

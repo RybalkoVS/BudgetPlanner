@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="5"
+    tools:context=".fragments.HomeFragment">
+
+        <ListView
+            android:id="@+id/walletsList"
+            android:layout_margin="16dp"
+            android:layout_width="match_parent"
+            android:outlineSpotShadowColor="@color/black"
+            android:layout_height="match_parent"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="10sp"
+            android:layout_weight="3"/>
+
+    <Button
+        android:id="@+id/add_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_add"
+        android:layout_gravity="center"
+        android:text="@string/add_btn_txt"
+        android:textColor="@color/white"
+        android:layout_marginBottom="32dp"
+        android:layout_marginTop="32dp"
+        />
+
+</LinearLayout>
